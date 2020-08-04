@@ -8,3 +8,18 @@ html[lang="zh"] body nav{
     font-size: 1.1rem;
     font-weight: bold;
 }
+
+.footer-container{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-image{
+    background-image: url("../images/253332.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
