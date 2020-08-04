@@ -20,9 +20,10 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </head>
     <body class="bg-dark">
-        <img class="bg-image" src="../../images/backgroundImage.jpg" width="100%" height:auto alt="backgroundImage">
+        <img class="bg-image" src="../../images/backgroundImage.jpg" width="auto" alt="backgroundImage">
         <header class="container mt-5">
             <nav class="navbar navbar-expand-lg navbar-light bg-light text-centers rounded">
+              <div class="container p-0">
                 <a class="navbar-brand" href="#">
                 <img src="../../images/logo.png" alt="logo" width="120px" height="auto"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,9 +31,6 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="#">MPL<span class="sr-only">(current)</span></a>
-                      </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
                           About Us
@@ -63,8 +61,18 @@
                       <li class="nav-item">
                         <a class="nav-link" href="#">Membership</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Resources</a>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                          Resources
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="resourceTypes">
+                          <a class="dropdown-item" href="#">Online databases</a>
+                          <a class="dropdown-item" href="#">Online journals</a>
+                          <a class="dropdown-item" href="#">Open access resources</a>
+                          <a class="dropdown-item" href="#">eBooks</a>
+                          <a class="dropdown-item" href="#">Multimedia resources</a>
+                          <a class="dropdown-item" href="#">Old e newspapers</a>
+                        </div>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
@@ -86,7 +94,7 @@
                       </li>
                     </ul>
                 </div>
-
+              </div>
             </nav>
         </header>
 
