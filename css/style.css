@@ -10,10 +10,7 @@ html[lang="zh"] body nav{
 }
 
 .bg-image {
-      background-attachment: fixed;
-      background-repeat:no-repeat;
-      position: absolute;
-      left:0px;
+      position: fixed;
       top:0px;
       z-index: -1;
       filter: brightness(0.30);
