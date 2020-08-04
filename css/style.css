@@ -18,6 +18,7 @@ html[lang="zh"] body nav{
       z-index: -1;
       filter: brightness(0.30);
 }
+
 .footer-container{
     padding-left: 30px;
     padding-right: 30px;
