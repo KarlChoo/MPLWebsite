@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>主页 -  马来西亚民众图书馆</title>
+        <title>首页 -  马来西亚民众图书馆</title>
         <link rel="stylesheet" type="text/css" href="../../css/style.css">
     
         <!-- Bootstrap CSS only -->
@@ -15,9 +15,10 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </head>
 
-    <body class="bg-dark">
+    <body>
+        <img class="bg-image" src="../../images/backgroundImage.jpg" width="100%" height:auto alt="backgroundImage">
         <header class="container mt-5">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light text-center rounded">
                 <a class="navbar-brand" href="#">MPL Logo</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -81,7 +82,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownResCN">
                           <a class="dropdown-item" href="#">英文</a>
-                          <a class="dropdown-item" href="#">简体中文</a>
+                          <a class="dropdown-item active" href="#">简体中文</a>
                         </div>
                       </li>
                   </ul>
@@ -89,8 +90,51 @@
               </nav>
         </header>
 
-        <footer>
-            
+        <footer class="bg-dark text-light mt-5 pt-5 pb-1">
+            <div class="footer-container text-center">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <h3 class="mb-2">LOGO</h3>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <h3 class="mb-2">关于我们</h3>
+                        <p style="letter-spacing: 0.1em;">
+                            马来西亚民众图书馆及研发中心，
+                            前身为马来亚民众图书馆协会, 成立于1955年3月31日，
+                            至今已超过65年历史。座落于吉隆坡中华大会堂后面森敏公寓底层。
+                            现在图书馆搬迁至精英大学的精英大厦，位于吉隆坡白沙罗岭区
+                        </p>
+                        <a href="#">学到更多>></a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <h3 class="mb-2">联系我们</h3>
+                        <p>
+                            2nd floor, Wisma HELP, Jalan Dungun
+                            50490 Kuala Lumpur, Malaysia
+                            Tel: 603-2711 2000
+                            Email: <a href="mailto:mplrdc@help.edu.my">mplrdc@help.edu.my</a>  
+                                                        
+                        </p>
+                        <p>找不到我们？试试看使用 <a href="https://www.google.com.my/maps/place/Wisma+HELP/@3.1527778,101.6630891,
+                            17z/data=!3m1!4b1!4m5!3m4!1s0x31cc4854c163ba69:0x1eb08ed1feb2398d!8m2!3d3.1527778!4d101.6652778">Google Maps</a></p>
+                        
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <h3 class="mb-2">导航</h3>
+                        <div class="col-12"><a href="#">查询书籍</a></div>
+                        <div class="col-12"><a href="#">研究</a></div>
+                        <div class="col-12"><a href="#">推广活动</a></div>
+                        <div class="col-12"><a href="#">电子资源</a></div>
+                        <div class="col-12"><a href="#">会员</a></div>
+                        <div class="col-12"><a href="#">联系我们</a></div>
+                        <div class="col-12"><a href="#">人才招聘</a></div>
+                        <div class="col-12"><a href="#">赞助</a></div>
+                    </div>
+                </div>
+
+                <hr class="border-light"></hr>
+                <p><a class="text-light" href="#">隐私政策</a> | &#169; 2020 马来西亚民众图书馆及研发中心 | <a class="text-light" href="#">网站地图</a></p>
+            </div>
         </footer>
     </body>
 </html>
