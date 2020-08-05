@@ -23,7 +23,6 @@ html[lang="zh"] body nav{
     margin-right: auto;
 }
 
-
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;

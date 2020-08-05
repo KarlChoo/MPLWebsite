@@ -49,7 +49,7 @@
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="navbarDropdownEventCN" role="button" data-toggle="dropdown" aria-haspopup="true"
-              href="aboutus-cn.html" aria-expanded="false">
+               href="aboutus-cn.html" aria-expanded="false" onclick="dropdownLink(this.href)">
               关于我们
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownEventCN">
@@ -62,7 +62,7 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="events-cn.html" id="navbarDropdownEventCN" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
+              aria-haspopup="true" aria-expanded="false" onclick="dropdownLink(this.href)">
               推广活动
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownEventCN">
@@ -81,7 +81,7 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="resources-cn.html" id="navbarDropdownResCN" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
+              aria-haspopup="true" aria-expanded="false" onclick="dropdownLink(this.href)">
               电子资源
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownResCN">
@@ -108,7 +108,7 @@
               语言
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownResCN">
-              <a class="dropdown-item" href="../en/index-en.html">English</a>
+              <a class="dropdown-item" onclick="changeLanguage()">English</a>
               <a class="dropdown-item active">简体中文</a>
             </div>
           </li>
