@@ -16,6 +16,10 @@ html[lang="zh"] body nav{
       filter: brightness(0.30);
 }
 
+footer{
+    background-color: #26292D!important;
+}
+
 .footer-container{
     padding-left: 30px;
     padding-right: 30px;
