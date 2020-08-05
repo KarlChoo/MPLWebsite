@@ -10,6 +10,7 @@ for (let index = 0; index < 100; index++) {
 }
 */
 
+/*
 function changeLanguage(){
     let currentURL =  window.location.href;
     let newURL;
@@ -21,3 +22,4 @@ function changeLanguage(){
     
     window.location.href = newURL;
 }
+*/
