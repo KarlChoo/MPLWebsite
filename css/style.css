@@ -1,3 +1,11 @@
+/***
+*
+*
+*   General Changes
+*
+*
+***/
+
 *{
     margin: 0;
     padding: 0;
@@ -30,4 +38,96 @@ footer{
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+}
+
+/***
+*
+*
+* Front page
+*
+*
+***/
+
+.index-quote{
+    font-family: cursive,Helvetica, Arial, sans-serif;
+}
+
+.welcome-quote{
+    font-family: Roboto, serif, Arial;
+}
+
+.welcome-quote span{
+    font-size: 3rem;
+}
+
+.search-bar{
+    width:50%!important; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.search-bar button{
+    background-color: #99dc35;
+    border-radius: 0px 0.25em 0.25em 0px!important;
+}
+
+.search-bar span{
+    border-radius: 0.25em 0px 0px 0.25em!important;
+}
+
+.search-alt{
+    font-family: Helvetica, cursive;
+}
+
+.search-alt a{
+    text-decoration: underline;
+}
+
+.announcement{
+    background-image: url("../images/starline.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+.news-section div.card, .news-section div.card img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.news-section div.card{
+    margin: 0 auto;
+}
+
+.see-more{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.see-more{
+    font-size: 1.25em;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .search-bar{width: 90%!important;}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+    .search-bar{width: 70%!important;}
+}
+
+
+@media only screen and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
 }
