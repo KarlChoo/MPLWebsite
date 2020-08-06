@@ -119,8 +119,9 @@
 
   <!--Content-->
   <article>
+    <h1 class="text-light text-center my-5"> 查询书籍 </h1>
     <section class="my-5 container-fluid search-box p-0">
-      <h1 class="text-center pt-3 welcome-quote text-light">Seek what you wish here</h1>
+      <h2 class="text-center pt-3 welcome-quote text-light">在这里寻求你所愿望的资料</h2>
 
       <!--Search bar-->
       <div class="input-group input-group-lg search-bar mt-4 pb-4">
@@ -142,7 +143,7 @@
       <div class="container rounded-top pb-3 search-filter text-light">
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
-            Search by:
+            搜索依据:
             <select class="form-control">
               <option>Title</option>
               <option>Author</option>
@@ -153,7 +154,7 @@
             </select>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
-            Sort by:
+            排法:
             <select class="form-control">
               <option>Title (A-Z)</option>
               <option>Author (A-Z)</option>
@@ -163,7 +164,7 @@
             </select>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
-            Subject:
+            主题:
             <select class="form-control">
               <option>All</option>
               <option>Culinary</option>
@@ -173,7 +174,7 @@
             </select>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
-            Language:
+            语言:
             <select class="form-control">
               <option>All</option>
               <option>English</option>
@@ -189,7 +190,7 @@
 
       <!--Display resources-->
       <div class="mt-3 py-4 opac-display-box">
-        <h6>3 results found sorted by title</h6>
+        <h6>相关3/3个结果</h6>
         <table class="table table-striped table-light" id="opac-table">
           <tbody>
             <tr>
@@ -257,6 +258,7 @@
           </tbody>
         </table>
 
+        <!--Pagination-->
         <nav aria-label="opac navigation">
           <ul class="pagination justify-content-center">
             <li class="page-item disabled">
@@ -270,8 +272,10 @@
             </li>
           </ul>
         </nav>
-      
+        <!--END Pagination-->
+
       </div>
+      <!--END Display resources-->
     </section>
   </article>
   <!--END Content-->
