@@ -141,26 +141,49 @@ footer{
 
 @media only screen and (max-width: 576px) {
     .search-bar{width: 90%!important;}
+  #bookroomimage{
+      width:150%;
+      height:40%;
+    }
 
 }
 
-@media only screen and (max-width: 768px) {
-#intro{
+@media only screen and (min-width: 577px) {
+  #intro{
     padding-top:0px;
+  }
+  #bookroomimage{
+      width:100%;
+      height:50%;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
+  #bookroomimage{
+      width:100%;
+      height:60%;
+  }
     .search-bar{width: 70%!important;}
 }
 
 
-@media only screen and (max-width: 1199px) {
-
+@media only screen and (min-width: 1199px) {
+  #intro{
+      padding-top:2%;
+    }
+  #bookroomimage{
+      width:100%;
+      height:70%;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
   #intro{
-      padding-top:5%;
+      padding-top:4%;
     }
+    #bookroomimage{
+        width:100%;
+        height:75%;
+    }
+
 }
