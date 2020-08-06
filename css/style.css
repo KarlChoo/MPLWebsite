@@ -20,8 +20,8 @@ html[lang="zh"] body nav{
 .bg-image {
       position: fixed;
       top:0px;
-      z-index: -1;
-      filter: brightness(0.30);
+      z-index: -10;
+      filter: brightness(0.50);
 }
 
 footer{
@@ -39,6 +39,7 @@ footer{
     display: block;
     margin-top: 0;
 }
+
 
 /***
 *
@@ -61,8 +62,8 @@ footer{
 }
 
 .search-bar{
-    width:50%!important; 
-    margin-left: auto; 
+    width:50%!important;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -107,6 +108,34 @@ footer{
 
 .see-more{
     font-size: 1.25em;
+}
+
+/***
+*
+*
+* end front page
+*
+*
+***/
+
+/***
+*
+*
+* About us page
+*
+*
+***/
+.bg-image2 {
+      position: fixed;
+      top:0px;
+      z-index: -10;
+}
+
+.bg-imageabsolute {
+      position: absolute;
+      top:0px;
+      z-index: -10;
+      filter: brightness(0.60);
 }
 
 
