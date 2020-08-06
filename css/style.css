@@ -21,7 +21,7 @@ html[lang="zh"] body nav{
       position: fixed;
       top:0px;
       z-index: -10;
-      filter: brightness(0.30);
+      filter: brightness(0.50);
 }
 
 footer{
@@ -39,6 +39,7 @@ footer{
     display: block;
     margin-top: 0;
 }
+
 
 /***
 *
@@ -61,8 +62,8 @@ footer{
 }
 
 .search-bar{
-    width:50%!important; 
-    margin-left: auto; 
+    width:50%!important;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -107,6 +108,29 @@ footer{
 
 .see-more{
     font-size: 1.25em;
+}
+
+
+
+
+/***
+*
+*
+* About us page
+*
+*
+***/
+.bg-image2 {
+      position: fixed;
+      top:0px;
+      z-index: -10;
+}
+
+.bg-imageabsolute {
+      position: absolute;
+      top:0px;
+      z-index: -10;
+      filter: brightness(0.60);
 }
 
 /***
@@ -162,7 +186,9 @@ footer{
 }
 
 @media only screen and (max-width: 768px) {
-
+#intro{
+    padding-top:0px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -174,5 +200,7 @@ footer{
 }
 
 @media only screen and (min-width: 1200px) {
-
+  #intro{
+      padding-top:5%;
+    }
 }
