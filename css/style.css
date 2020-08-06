@@ -44,7 +44,7 @@ footer{
 /***
 *
 *
-* Front page
+* Landing page
 *
 *
 ***/
@@ -110,13 +110,8 @@ footer{
     font-size: 1.25em;
 }
 
-/***
-*
-*
-* end front page
-*
-*
-***/
+
+
 
 /***
 *
@@ -138,14 +133,56 @@ footer{
       filter: brightness(0.60);
 }
 
+/***
+*
+*
+* OPAC page
+*
+*
+***/
+#opac-bg{
+    background-image: url("../images/opacbg-modified.jpg");
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+}
+
+.search-box{
+    background-color: rgba(255, 193, 7, 0.9)
+}
+
+.search-filter{
+    background-color: #8307ff;
+}
+
+.search-filter div{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.opac-display-box{
+    background: rgba(169, 169, 169,0.9);
+    padding: 0 30px;
+}
+
+.opac-cell-header, .opac-cell-numbering{
+    width: 100px;
+    font-weight: bold;
+}
+
+
+/***
+*
+*
+* END OPAC page
+*
+*
+***/
 
 @media only screen and (max-width: 576px) {
-    .search-bar{width: 90%!important;}
-  #bookroomimage{
-      width:150%;
-      height:40%;
-    }
-
+    .search-bar{width: 100%!important;}
 }
 
 @media only screen and (min-width: 577px) {
@@ -166,7 +203,6 @@ footer{
     .search-bar{width: 70%!important;}
 }
 
-
 @media only screen and (min-width: 1199px) {
   #intro{
       padding-top:2%;
@@ -174,8 +210,7 @@ footer{
   #bookroomimage{
       width:100%;
       height:70%;
-    }
-}
+    }}
 
 @media only screen and (min-width: 1200px) {
   #intro{
