@@ -20,7 +20,7 @@ html[lang="zh"] body nav{
 .bg-image {
       position: fixed;
       top:0px;
-      z-index: -1;
+      z-index: -10;
       filter: brightness(0.30);
 }
 
@@ -43,7 +43,7 @@ footer{
 /***
 *
 *
-* Front page
+* Landing page
 *
 *
 ***/
@@ -109,10 +109,56 @@ footer{
     font-size: 1.25em;
 }
 
+/***
+*
+*
+* OPAC page
+*
+*
+***/
+#opac-bg{
+    background-image: url("../images/opacbg-modified.jpg");
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+}
+
+.search-box{
+    background-color: rgba(255, 193, 7, 0.9)
+}
+
+.search-filter{
+    background-color: #8307ff;
+}
+
+.search-filter div{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.opac-display-box{
+    background-color: white;
+    padding: 0 30px;
+}
+
+.opac-cell-header, .opac-cell-numbering{
+    width: 100px;
+    font-weight: bold;
+}
+
+
+/***
+*
+*
+* END OPAC page
+*
+*
+***/
 
 @media only screen and (max-width: 576px) {
-    .search-bar{width: 90%!important;}
-
+    .search-bar{width: 100%!important;}
 }
 
 @media only screen and (max-width: 768px) {
@@ -122,7 +168,6 @@ footer{
 @media only screen and (max-width: 992px) {
     .search-bar{width: 70%!important;}
 }
-
 
 @media only screen and (max-width: 1199px) {
 
