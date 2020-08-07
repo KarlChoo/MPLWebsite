@@ -185,8 +185,6 @@ footer{
     width: 100px;
     font-weight: bold;
 }
-
-
 /***
 *
 *
@@ -195,6 +193,28 @@ footer{
 *
 ***/
 
+
+/***
+*
+*
+* Events
+*
+*
+***/
+.event-bg{
+    position: fixed;
+    top:0px;
+    z-index: -10;
+}
+
+
+/***
+*
+*
+* END Events
+*
+*
+***/
 
 
 /***
