@@ -54,7 +54,7 @@ footer{
 }
 
 .welcome-quote{
-    font-family: Roboto, serif, Arial;
+    font-family: Roboto, serif, Arial!important;
 }
 
 .welcome-quote span{
@@ -62,7 +62,6 @@ footer{
 }
 
 .search-bar{
-    width:50%!important;
     margin-left: auto;
     margin-right: auto;
 }
@@ -182,7 +181,7 @@ footer{
 /***
 *
 *
-* OPAC page
+* OPAC
 *
 *
 ***/
@@ -217,12 +216,80 @@ footer{
     width: 100px;
     font-weight: bold;
 }
+/***
+*
+*
+* END OPAC
+*
+*
+***/
 
 
 /***
 *
 *
-* END OPAC page
+* Events
+*
+*
+***/
+.event-bg{
+    position: fixed;
+    top:0px;
+    z-index: -10;
+}
+
+
+/***
+*
+*
+* END Events
+*
+*
+***/
+
+
+/***
+*
+*
+* Sponsorship
+*
+*
+***/
+
+.sponsor-top-bg{
+    position: relative;
+    top:0px;
+    z-index: -10;
+    filter: brightness(0.7);
+}
+
+.thank-you{
+    font-family:'Times New Roman', Times, serif, cursive;
+}
+
+.sponsors-background{
+    background-image: url("../images/sponsorbg.jpg");
+    background-size: 100% auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+}
+
+.gold-sponsors img{
+    width: 200px;
+    height: auto;
+}
+
+.silver-sponsors img{
+    width: 100px;
+    height: auto;
+}
+
+
+/***
+*
+*
+* END Sponsorship
 *
 *
 ***/
@@ -244,6 +311,7 @@ footer{
       padding-top:4%;
       padding-bottom:3%;
     }
+    .navbar-responsive{width: 85%}
 
 }
 
@@ -267,6 +335,15 @@ footer{
     padding-bottom:3%;
   }
 
+  .search-bar{width: 70%!important;}
+
+  .sponsors-background{background-size: 100% auto;}
+
+  .navbar-responsive{width: 77%}
+}
+
+@media only screen and (max-width: 784px) {
+    .sponsors-background{background-size: auto 100%;}
 }
 
 @media only screen and (min-width: 992px) {
@@ -287,6 +364,9 @@ footer{
 }
 
     .search-bar{width: 70%!important;}
+  .search-bar{width:50%!important;}
+
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -308,4 +388,6 @@ footer{
       padding-bottom:3%;
     }
 
+
+    .navbar-responsive{width: 80%;}
 }
