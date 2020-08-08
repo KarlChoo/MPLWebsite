@@ -262,6 +262,12 @@ nav.navbar{
     font-weight: bold;
     font-size: 1.1em;
 }
+
+.email-register{
+    background: rgb(16,0,255);
+    background: linear-gradient(90deg, rgba(16,0,255,1) 0%, rgba(105,105,251,1) 54%, rgba(79,207,233,1) 100%);
+}
+
 /***
 *
 *
@@ -379,26 +385,29 @@ nav.navbar{
 
 @media only screen and (min-width: 992px) {
 
-  #bookroomimage{
-      width:100%;
-      height:70%;
-  }
-  #title{
-    font-size:500%;
-    padding-top:7%;
-    padding-bottom:7%;
-  }
-  #title2{
-    font-size:300%;
-    padding-top:4%;
-    padding-bottom:3%;
-}
+    #bookroomimage{
+        width:100%;
+        height:70%;
+    }
+    #title{
+        font-size:500%;
+        padding-top:7%;
+        padding-bottom:7%;
+    }
+    #title2{
+        font-size:300%;
+        padding-top:4%;
+        padding-bottom:3%;
+    }
 
     .search-bar{width: 70%!important;}
-  .search-bar{width:50%!important;}
+    .search-bar{width:50%!important;}
 
-  .navbar-responsive{width: 90%;}
+    .navbar-responsive{width: 90%;}
 
+    .email-register input{
+        max-width: 50%;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
