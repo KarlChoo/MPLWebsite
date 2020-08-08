@@ -130,9 +130,8 @@ nav.navbar{
 }
 
 .bg-imageabsolute {
-      position: absolute;
-      top:0px;
-      z-index: -10;
+      position: relative;
+      z-index: 0;
       filter: brightness(0.60);
 }
 
@@ -142,6 +141,38 @@ nav.navbar{
   padding-bottom:3px;
   padding-left:5px;
   padding-right:5px;
+}
+
+.publications {
+  box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+}
+
+.publications button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.publications button:hover {
+  opacity: 0.7;
+}
+
+.public{
+  background-color: #FFD801;
+  padding-top:3px;
+  padding-bottom:3px;
+  padding-left:10px;
+  padding-right:10px;
 }
 /***
 *
@@ -280,6 +311,12 @@ nav.navbar{
       padding-top:7%;
       padding-bottom:7%;
     }
+
+    #title2{
+      font-size:200%;
+      padding-top:4%;
+      padding-bottom:3%;
+    }
     
     .navbar-responsive{width: 80%}
 
@@ -300,6 +337,13 @@ nav.navbar{
     padding-top:7%;
     padding-bottom:7%;
   }
+
+  #title2{
+    font-size:300%;
+    padding-top:4%;
+    padding-bottom:3%;
+  }
+
   .search-bar{width: 70%!important;}
 
   .sponsors-background{background-size: 100% auto;}
@@ -325,6 +369,13 @@ nav.navbar{
     padding-top:7%;
     padding-bottom:7%;
   }
+  #title2{
+    font-size:300%;
+    padding-top:4%;
+    padding-bottom:3%;
+}
+
+    .search-bar{width: 70%!important;}
   .search-bar{width:50%!important;}
 
   .navbar-responsive{width: 90%;}
@@ -344,5 +395,11 @@ nav.navbar{
       padding-top:7%;
       padding-bottom:7%;
     }
+    #title2{
+      font-size:300%;
+      padding-top:4%;
+      padding-bottom:3%;
+    }
+
 
 }
