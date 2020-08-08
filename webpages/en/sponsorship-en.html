@@ -30,87 +30,97 @@
 
 <body class="bg-dark">
     <!--Header-->
-    <header class="container">
-        <!--Navigation Bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light text-centers rounded navbar-responsive position-absolute mt-5">
-            <div class="container p-0">
-                <a class="navbar-brand" href="#">
-                    <img src="../../images/logo.png" alt="logo" width="120px" height="auto"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="aboutus-en.html">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="opac-en.html">OPAC</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="events-en.html" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Events
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="eventTypes">
-                                <a class="dropdown-item" href="culturalactivities-en.html">Cultural Activities</a>
-                                <a class="dropdown-item" href="exhibition-en.html">Exhibitions</a>
-                                <a class="dropdown-item" href="awardscomp-en.html">Awards/Competitions</a>
-                                <a class="dropdown-item" href="readingactivities-en.html">Reading Activities</a>
-                                <a class="dropdown-item" href="talksworkshops-en.html">Talks/Workshops</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="research-en.html">Research</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="membership-en.html">Membership</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="resources-en.html" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Resources
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="resourceTypes">
-                                <a class="dropdown-item" href="onlinedatabases-en.html">Online databases</a>
-                                <a class="dropdown-item" href="onlinejournals-en.html">Online journals</a>
-                                <a class="dropdown-item" href="openaccessResources-en.html">Open access resources</a>
-                                <a class="dropdown-item" href="ebooks-en.html">eBooks</a>
-                                <a class="dropdown-item" href="multimediaresources-en.html">Multimedia resources</a>
-                                <a class="dropdown-item" href="oldenewspapers-en.html">Old e newspapers</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contactus-en.html">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="careers-en.html">Careers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="sponsorship-en.html">Sponsorship</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                Language
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="languageTypes">
-                                <a class="dropdown-item active">English</a>
-                                <a class="dropdown-item" onclick="changeLanguage()">简体中文</a>
-                            </div>
-                        </li>
-                    </ul>
+    <header>
+        <div class="position-relative container-fluid px-0" style="display: flex;justify-content: center;">
+            <!--Background image top-->
+            <img class="sponsor-top-bg" src="../../images/helplib.jpg" width="100%" height="auto" alt="backgroundImage">
+
+            <!--Navigation Bar-->
+            <nav
+                class="navbar navbar-expand-lg navbar-light bg-light text-centers rounded navbar-responsive position-absolute mt-5">
+                <div class="container p-0">
+                    <a class="navbar-brand" href="#">
+                        <img src="../../images/logo.png" alt="logo" width="120px" height="auto"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutus-en.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="opac-en.html">OPAC</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="events-en.html" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Events
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="eventTypes">
+                                    <a class="dropdown-item" href="culturalactivities-en.html">Cultural Activities</a>
+                                    <a class="dropdown-item" href="exhibition-en.html">Exhibitions</a>
+                                    <a class="dropdown-item" href="awardscomp-en.html">Awards/Competitions</a>
+                                    <a class="dropdown-item" href="readingactivities-en.html">Reading Activities</a>
+                                    <a class="dropdown-item" href="talksworkshops-en.html">Talks/Workshops</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="research-en.html">Research</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="membership-en.html">Membership</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="resources-en.html" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Resources
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="resourceTypes">
+                                    <a class="dropdown-item" href="onlinedatabases-en.html">Online databases</a>
+                                    <a class="dropdown-item" href="onlinejournals-en.html">Online journals</a>
+                                    <a class="dropdown-item" href="openaccessResources-en.html">Open access
+                                        resources</a>
+                                    <a class="dropdown-item" href="ebooks-en.html">eBooks</a>
+                                    <a class="dropdown-item" href="multimediaresources-en.html">Multimedia resources</a>
+                                    <a class="dropdown-item" href="oldenewspapers-en.html">Old e newspapers</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactus-en.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="careers-en.html">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="sponsorship-en.html">Sponsorship</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Language
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="languageTypes">
+                                    <a class="dropdown-item active">English</a>
+                                    <a class="dropdown-item" onclick="changeLanguage()">简体中文</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-        <!--END Navigation Bar-->
+            </nav>
+            <!--END Navigation Bar-->
+
+            <!--Desktop display title-->
+            <h1 id="title-desktop" class="text-light text-center welcome-quote my-5 position-absolute bg-secondary">Sponsorship</h1>
+        </div>
     </header>
     <!--END Header-->
 
     <!--Content-->
-    <img class="sponsor-top-bg" src="../../images/helplib.jpg" width="100%" height="auto" alt="backgroundImage">
-    <h1 class="text-light text-center welcome-quote my-5 position-relative">Sponsorship</h1>
+    <!--Mobile display title-->
+    <h1 id="title-mobile" class="text-light text-center welcome-quote my-5 position-relative">Sponsorship</h1>
 
     <article>
         <section class="my-5 container-fluid sponsors-background py-4">

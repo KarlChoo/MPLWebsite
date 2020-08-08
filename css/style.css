@@ -40,6 +40,10 @@ footer{
     margin-top: 0;
 }
 
+/*Give the navbar higher display priory especially mobile*/
+nav.navbar{
+    z-index: 20;
+}
 
 /***
 *
@@ -254,7 +258,9 @@ footer{
     height: auto;
 }
 
-
+#title-desktop{
+    top: 50%;
+}
 /***
 *
 *
@@ -274,8 +280,11 @@ footer{
       padding-top:7%;
       padding-bottom:7%;
     }
-    .navbar-responsive{width: 85%}
+    
+    .navbar-responsive{width: 80%}
 
+    #title-mobile{display: block;}
+    #title-desktop{display: none;}
 }
 
 @media only screen and (min-width: 577px) {
@@ -295,7 +304,10 @@ footer{
 
   .sponsors-background{background-size: 100% auto;}
 
-  .navbar-responsive{width: 77%}
+  .navbar-responsive{width: 75%}
+
+    #title-mobile{display: none;}
+    #title-desktop{display: block;}
 }
 
 @media only screen and (max-width: 784px) {
@@ -315,6 +327,7 @@ footer{
   }
   .search-bar{width:50%!important;}
 
+  .navbar-responsive{width: 90%;}
 
 }
 
@@ -332,5 +345,4 @@ footer{
       padding-bottom:7%;
     }
 
-    .navbar-responsive{width: 80%;}
 }
