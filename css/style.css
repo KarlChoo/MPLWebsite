@@ -325,12 +325,58 @@ nav.navbar{
 *
 ***/
 
+/***
+*
+*
+* Events
+*
+*
+***/
+.bg-eventimage {
+      position: fixed;
+      top:0px;
+      z-index: -10;
+      filter: brightness(0.60);
+}
+
+.font{
+  font-size:125%;
+  margin-top:15%;
+}
+
+#culture{
+  width:80%;
+  margin-top:20px;
+}
+
+#exhibition{
+  width:80%;
+  margin-top:100px;
+}
+
+.cardshadow{
+  box-shadow: 5px 5px 70px 0 rgba(0, 0, 0, 0.2);
+}
+/***
+*
+*
+* END Events
+*
+*
+***/
+
 @media only screen and (max-width: 576px) {
     .search-bar{width: 90%!important;}
     #bookroomimage{
         width:250%;
         height:90%;
     }
+
+    #eventimage{
+        width:250%;
+        height:90%;
+    }
+
     #title{
       font-size:350%;
       padding-top:7%;
@@ -354,9 +400,15 @@ nav.navbar{
     padding-top:0px;
   }
   #bookroomimage{
-      width:100%;
-      height:60%;
+      width:130%;
+      height:90%;
   }
+
+  #eventimage{
+      width:150%;
+      height:100%;
+  }
+
   #title{
     font-size:400%;
     padding-top:7%;
@@ -389,6 +441,12 @@ nav.navbar{
         width:100%;
         height:70%;
     }
+
+    #eventimage{
+        width:100%;
+        height:70%;
+    }
+
     #title{
         font-size:500%;
         padding-top:7%;
@@ -418,6 +476,13 @@ nav.navbar{
         width:100%;
         height:81%;
     }
+
+    #eventimage{
+        width:100%;
+        height:auto;
+        margin-top:-200px;
+    }
+
     #title{
       font-size:700%;
       padding-top:7%;
