@@ -32,8 +32,6 @@
 </head>
 
 <body class="bg-dark">
-  <img class="bg-image" src="../../images/backgroundImage.jpg" width="auto" alt="backgroundImage">
-
   <!--Header-->
   <header class="container mt-5">
     <!--Navigation Bar-->
@@ -49,13 +47,13 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="aboutus-cn.html">关于我们</a>
- </li>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="opac-cn.html">查询书籍</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="events-cn.html" id="navbarDropdownEventCN" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false" onclick="dropdownLink(this.href)">
+            <a class="nav-link dropdown-toggle" href="events-cn.html" id="navbarDropdownEventCN" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="dropdownLink(this.href)">
               推广活动
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownEventCN">
@@ -73,8 +71,8 @@
             <a class="nav-link" href="membership-cn.html">会员</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="resources-cn.html" id="navbarDropdownResCN" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false" onclick="dropdownLink(this.href)">
+            <a class="nav-link dropdown-toggle active" href="resources-cn.html" id="navbarDropdownResCN" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="dropdownLink(this.href)">
               电子资源
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownResCN">
@@ -113,7 +111,53 @@
   <!--END Header-->
 
   <!--Content-->
-  <article >
+  <article>
+    <h1 class="text-light text-center" id="title2"> 电子资源 </h1>
+
+    <section class="container-fluid bg-light">
+      <div class="container py-4 text-center">
+        <h1 class="welcome-quote">What type resources would you like to find?</span></h1>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 " >
+              <div class="resource-card mt-3"><a href="www.google.com">Online Database</a></div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 ">
+              <div class="resource-card mt-3"><a href="www.google.com">Online Journal</a></div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 ">
+              <div class="resource-card mt-3"><a href="www.google.com">Open Access Resources</a></div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 ">
+              <div class="resource-card mt-3"><a href="www.google.com">Test</a></div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 ">
+              <div class="resource-card mt-3"><a href="www.google.com">Test</a></div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 ">
+              <div class="resource-card mt-3"><a href="www.google.com">Test</a></div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!--Search Bar-->
+    <section class="container-fluid pt-4 pb-4 text-center text-dark" style="background-color: rgba(249, 246, 61, 0.9);">
+      <h1 class="welcome-quote">Want to search through keywords instead?</span></h1>
+      <div class="input-group input-group-lg search-bar mt-4">
+        <span class="input-group-text rounded-0">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+            <path fill-rule="evenodd"
+              d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+          </svg>
+        </span>
+        <input type="text" class="form-control" name="seacrhResource">
+        <button class="btn btn-large">寻找资料</button>
+      </div>
+    </section>
+    <!--END Search Bar-->
 
   </article>
   <!--END Content-->

@@ -16,5 +16,7 @@ opacbg-modified.jpg
 bookshelf.jpg
 source - https://unsplash.com/photos/YLSwjSy7stw
 
-helplib.jpg, events.jpg
+helplib.jpg, events.jpg, events2.jpg, events3.jpg
 Source - https://university.help.edu.my/campuses/help-subang-2/
+
+sponsorbg.jpg

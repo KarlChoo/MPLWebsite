@@ -242,7 +242,6 @@ nav.navbar{
     z-index: -10;
 }
 
-
 /***
 *
 *
@@ -251,6 +250,45 @@ nav.navbar{
 *
 ***/
 
+/***
+*
+*
+* Resources
+*
+*
+***/
+
+
+.resource-card{
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: black;
+    position: relative;
+    border: 1px solid white
+}
+
+.resource-card a{
+    position: absolute;
+    top: 40%;
+    bottom: 0;      
+    left: 0;
+    right: 0;
+    z-index: 20;
+    color: white;
+    text-decoration: none;
+}
+
+.resource-card a:hover{
+    color: white;
+    text-decoration: none;
+}
+/***
+*
+*
+* END Resources
+*
+***/
 
 /***
 *
@@ -316,11 +354,21 @@ nav.navbar{
 
 #title-desktop{
     top: 50%;
+    font-size:350%;
 }
 /***
 *
 *
 * END Sponsorship
+*
+*
+***/
+
+
+
+/***
+*
+* Media CSS
 *
 *
 ***/
@@ -377,11 +425,21 @@ nav.navbar{
 
     #title-mobile{display: none;}
     #title-desktop{display: block;}
+
+    .resource-card{width: 150px; height: 180px;}
+    
 }
 
 @media only screen and (max-width: 784px) {
     .sponsors-background{background-size: auto 100%;}
+    
 }
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
 
 @media only screen and (min-width: 992px) {
 
@@ -408,6 +466,13 @@ nav.navbar{
     .email-register input{
         max-width: 50%;
     }
+
+
+    .resource-card{
+        width: 170px;
+        height: 220px;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -429,5 +494,8 @@ nav.navbar{
       padding-bottom:3%;
     }
 
-
+    .resource-card{
+        width: 180px;
+        height: 230px;
+    }
 }
