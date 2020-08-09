@@ -332,6 +332,10 @@ nav.navbar{
 *
 *
 ***/
+.eventsmooth{
+  scroll-behavior: smooth;
+}
+
 .bg-eventimage {
       position: fixed;
       top:0px;
