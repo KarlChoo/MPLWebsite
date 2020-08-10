@@ -19,4 +19,6 @@ source - https://unsplash.com/photos/YLSwjSy7stw
 helplib.jpg, events.jpg, events2.jpg, events3.jpg
 Source - https://university.help.edu.my/campuses/help-subang-2/
 
-sponsorbg.jpg
+sponsorbg.jpg - https://www.freepik.com/free-photos-vectors/background
+
+welcome.jpg - https://www.freepik.com/search?dates=any&format=search&page=1&query=welcome&sort=popular
