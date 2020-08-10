@@ -378,6 +378,29 @@ nav.navbar{
 /***
 *
 *
+* Membership
+*
+*
+***/
+
+.membership-container li{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+/***
+*
+*
+* END Membership
+*
+*
+***/
+
+
+/***
+*
+*
 * Career
 *
 ***/
@@ -524,6 +547,7 @@ nav.navbar{
 
     #title-mobile{display: block;}
     #title-desktop{display: none;}
+
 }
 
 @media only screen and (min-width: 577px) {
@@ -563,6 +587,10 @@ nav.navbar{
 
     .resource-card{width: 150px; height: 180px;}
     
+    .membership-container div{
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
 }
 
 @media only screen and (max-width: 784px) {
@@ -571,7 +599,13 @@ nav.navbar{
 }
 
 @media only screen and (min-width: 768px) {
+    .membership-container div{
+        border-left: 1px solid lightgray;
+        border-right: 1px solid lightgray;
 
+        border-top: 0;
+        border-bottom: 0;
+    }
 }
 
 
