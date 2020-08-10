@@ -32,7 +32,7 @@
 </head>
 
 <body class="bg-dark">
-  <img class="bg-image" src="../../images/backgroundImage.jpg" width="auto" alt="backgroundImage">
+  <img id="bookroomimage" class="bg-image2" src="../../images/bookroom.jpg" alt="backgroundImage">
 
   <!--Header-->
   <header class="container mt-5">
@@ -54,8 +54,8 @@
             <a class="nav-link" href="opac-cn.html">查询书籍</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="events-cn.html" id="navbarDropdownEventCN" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false" onclick="dropdownLink(this.href)">
+            <a class="nav-link dropdown-toggle" href="events-cn.html" id="navbarDropdownEventCN" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="dropdownLink(this.href)">
               推广活动
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownEventCN">
@@ -73,8 +73,9 @@
             <a class="nav-link" href="membership-cn.html">会员</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="resources-cn.html" id="navbarDropdownResCN" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false" onclick="dropdownLink(this.href)"onclick="dropdownLink(this.href)">
+            <a class="nav-link dropdown-toggle" href="resources-cn.html" id="navbarDropdownResCN" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="dropdownLink(this.href)"
+              onclick="dropdownLink(this.href)">
               电子资源
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownResCN">
@@ -113,9 +114,131 @@
   <!--END Header-->
 
   <!--Content-->
-  <article >
+  <!--Title-->
+  <div class="text-center text-light" id="title2">
+    关于我们
+  </div>
+  <!--END Title-->
 
-  </article>
+  <!--introduction-->
+  <div class="container-fluid bg-white">
+    <h3 class="text-center">
+      <span class="intro">简介</span>
+    </h3>
+    <div class="row">
+      <div class="col-md-5 col-sm-12 mt-4">
+        <div class="text-center">
+          <img src="../../images/customer.jpg" width="70%" height:"auto" alt="backgroundImage">
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12 my-4">
+        <p>马来西亚民众图书馆及研发中心(Malaysian Public Library, Research And Development Centre)，前身为马来亚民众图书馆协会 （Malayan Public
+          Library Association), 成立于1955年3月31日，至今已超过65年历史。座落于吉隆坡中华大会堂后面森敏公寓(Sam Mansion) 底层。
+          现在图书馆搬迁至精英大学(HELP University)的精英大厦 (Wisma HELP) ，位于吉隆坡白沙罗岭区 (Damansara Heights) 。
+        </p>
+        <p>
+          这座吉隆坡最古老的图书馆目前拥有6万余册中、英、巫文书籍，属于休闲及通俗的非营利中文图书馆，书种繁多，包罗万象，应有尽有。
+          图书馆经费除了会员费外，还有公众人士的捐款。除了会员及公共人士捐赠的书籍，管理层每月都有拨款增购新书。
+        </p>
+        <p>
+          这60多年来，图书馆由原有的理事会所管理。2002年，吉隆坡精英大学(HELP University
+          College)受邀加入本馆管理层，和理事会共同管理。精英大学除了在分担图书馆部分经费，也分派了管理人员到图书馆负责日常行政作业。
+          本会采取会员制。想参观本馆的人士，欢迎在开放时间前来。如欲享用本馆的服务及便利，亦欢迎加入成为会员。
+        </p>
+
+      </div>
+    </div>
+  </div>
+  <!--END introduction-->
+
+  <!--Facilities and future-->
+  <div class="container-fluid bg-white">
+    <h3 class="text-center">
+      <span class="intro">设备与未来</span>
+    </h3>
+    <div class="row">
+      <div class="col-md-5 col-sm-12 mt-2 mb-5">
+        <div class="text-center">
+          <img src="../../images/girlreading.jpg" width="70%" height:"auto" alt="facilityandfuure">
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12 ml-3 mt-1 mb-4">
+        <p>在未来的岁月，本馆将增加各方面的设施，推广大众阅读风气，加强与会员的联系及共享资讯。如:
+        <ul>
+          <li>开放更大的阅读空间</li>
+          <li>加强馆内各类藏书书种</li>
+          <li>增设图书馆书籍搜寻系统(OPAC)</li>
+          <li>电脑咨询及应用</li>
+          <li>读书会</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--END Facilities and future-->
+
+  <!--Publications-->
+  <div class="position-sticky container-fluid" style="background-color:#FFDB58">
+    <div class="text-center" id="title2">
+      <h1>图书馆出版刊物</h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="text-center">
+          <div class="publications">
+            <img src="../../images/customer.jpg" alt="annualreport" style="width:100%">
+            <h3>年度报告</h3>
+            <p>Read about our performance as well as achievements and
+              find out about the Library’s programmes,
+              projects and activities in our annual reports.
+            </p>
+            <p><button>阅读更多</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="text-center">
+          <div class="publications">
+            <img src="../../images/customer.jpg" alt="bulletin" style="width:100%">
+            <h3>通报</h3>
+            <p>An archive of bulletins and newsletters to keep Library users
+              up to date with current opening hours, services and events.
+            </p>
+            <p><button>阅读更多</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="text-center">
+          <div class="publications">
+            <img src="../../images/customer.jpg" alt="handbook" style="width:100%">
+            <h3>手册</h3>
+            <p>The handbook is an indispensable all-in-one resource for
+              everything related to the Library’s collections, services, and facilities.
+            </p>
+            <p><button>阅读更多</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="text-center">
+          <div class="publications">
+            <img src="../../images/customer.jpg" alt="brochure" style="width:100%">
+            <h3>图书馆宣传册</h3>
+            <p>The most current Library Brochure
+              provides you with the latest information on library services and facilities.
+            </p>
+            <p><button>阅读更多</button></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--END Publications-->
   <!--END Content-->
 
   <!--Footer-->

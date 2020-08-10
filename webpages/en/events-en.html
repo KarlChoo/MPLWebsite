@@ -1,272 +1,289 @@
 <!DOCTYPE html>
 <html class="eventsmooth" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Events - Malaysian Public Library(MPL)</title>
 
-        <!--Favicon-->
-        <link rel="icon" href="../../images/logo.png" type="image/gif" sizes="16x16">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events - Malaysian Public Library(MPL)</title>
 
-        <!--CSS-->
-        <link rel="stylesheet" type="text/css" href="../../css/style.css">
+  <!--Favicon-->
+  <link rel="icon" href="../../images/logo.png" type="image/gif" sizes="16x16">
 
-        <!--Bootstrap CSS-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="../../css/style.css">
 
-        <!-- JS, Popper.js, and jQuery -->
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    </head>
-    <body class="bg-dark">
-        <img id="eventimage" class="bg-eventimage" src="../../images/events.jpg" alt="EventImage">
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        <!--Header-->
-        <header class="container mt-5">
-            <!--Navigation Bar-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light text-centers rounded">
-              <div class="container p-0">
-                <a class="navbar-brand" href="index-en.html">
-                  <img src="../../images/logo.png" alt="logo" width="120px" height="auto">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav mr-auto">
-                      <li class="nav-item">
-                        <a class="nav-link active" href="aboutus-en.html">About us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="opac-en.html">OPAC</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="events-en.html" id="navbarDropdownEventCN" role="button" data-toggle="dropdown"
-                          aria-haspopup="true" aria-expanded="false" onclick="dropdownLink(this.href)">
-                          Events
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="eventTypes">
-                          <a class="dropdown-item" href="culturalactivities-en.html">Cultural Activities</a>
-                          <a class="dropdown-item" href="exhibition-en.html">Exhibitions</a>
-                          <a class="dropdown-item" href="awardscomp-en.html">Awards/Competitions</a>
-                          <a class="dropdown-item" href="readingactivities-en.html">Reading Activities</a>
-                          <a class="dropdown-item" href="talksworkshops-en.html">Talks/Workshops</a>
-                        </div>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="research-en.html">Research</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="membership-en.html">Membership</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="resources-en.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-                          Resources
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="resourceTypes">
-                          <a class="dropdown-item" href="onlinedatabases-en.html">Online databases</a>
-                          <a class="dropdown-item" href="onlinejournals-en.html">Online journals</a>
-                          <a class="dropdown-item" href="openaccessResources-en.html">Open access resources</a>
-                          <a class="dropdown-item" href="ebooks-en.html">eBooks</a>
-                          <a class="dropdown-item" href="multimediaresources-en.html">Multimedia resources</a>
-                          <a class="dropdown-item" href="oldenewspapers-en.html">Old e newspapers</a>
-                        </div>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contactus-en.html">Contact Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="careers-en.html">Careers</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="sponsorship-en.html">Sponsorship</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-                          Language
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="languageTypes">
-                          <a class="dropdown-item active">English</a>
-                          <a class="dropdown-item" onclick="changeLanguage()">简体中文</a>
-                        </div>
-                      </li>
-                    </ul>
-                </div>
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-dark">
+  <img id="eventimage" class="bg-eventimage" src="../../images/events.jpg" alt="EventImage">
+
+  <!--Header-->
+  <header class="container mt-5">
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-centers rounded">
+      <div class="container p-0">
+        <a class="navbar-brand" href="index-en.html">
+          <img src="../../images/logo.png" alt="logo" width="120px" height="auto">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus-en.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="opac-en.html">OPAC</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="events-en.html" id="navbarDropdownEventCN" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="dropdownLink(this.href)">
+                Events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="eventTypes">
+                <a class="dropdown-item" href="culturalactivities-en.html">Cultural Activities</a>
+                <a class="dropdown-item" href="exhibition-en.html">Exhibitions</a>
+                <a class="dropdown-item" href="awardscomp-en.html">Awards/Competitions</a>
+                <a class="dropdown-item" href="readingactivities-en.html">Reading Activities</a>
+                <a class="dropdown-item" href="talksworkshops-en.html">Talks/Workshops</a>
               </div>
-            </nav>
-            <!--END Navigation Bar-->
-        </header>
-          <!--END Header-->
-
-        <!--Title-->
-        <div class="text-center text-light" id="title">
-          Events
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="research-en.html">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="membership-en.html">Membership</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="resources-en.html" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Resources
+              </a>
+              <div class="dropdown-menu" aria-labelledby="resourceTypes">
+                <a class="dropdown-item" href="onlinedatabases-en.html">Online databases</a>
+                <a class="dropdown-item" href="onlinejournals-en.html">Online journals</a>
+                <a class="dropdown-item" href="openaccessResources-en.html">Open access resources</a>
+                <a class="dropdown-item" href="ebooks-en.html">eBooks</a>
+                <a class="dropdown-item" href="multimediaresources-en.html">Multimedia resources</a>
+                <a class="dropdown-item" href="oldenewspapers-en.html">Old e newspapers</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus-en.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="careers-en.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sponsorship-en.html">Sponsorship</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Language
+              </a>
+              <div class="dropdown-menu" aria-labelledby="languageTypes">
+                <a class="dropdown-item active">English</a>
+                <a class="dropdown-item" onclick="changeLanguage()">简体中文</a>
+              </div>
+            </li>
+          </ul>
         </div>
-        <!--END Title-->
-        <div class="bg-white">
-          <!--Culture Activities-->
-          <div id="culture" class="container-fluid cardshadow">
-            <div class="row">
-              <div class="col-md-6 col-sm-12 my-5">
-                <div class="text-center">
-                  <img src="../../images/cultures.jpg" width="90%" height:"auto" alt="backgroundImage">
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12 my-5">
-                <h2>
-                  <span class="intro">Culture activities</span>
-                </h2>
-                <p class="font">Libraries are well-placed to increase participation
-                  in cultural activities because of their use by all
-                  social groups and their role as inclusive cultural hubs
-                  within communities. Libraries also point people to
-                  wider cultural activities, objects, knowledge and sites,
-                  and encourage individuals to explore different cultural experiences
-                  and to create things themselves.
-                </p>
-              </div>
-            </div>
+      </div>
+    </nav>
+    <!--END Navigation Bar-->
+  </header>
+  <!--END Header-->
+
+  <!--Title-->
+  <div class="text-center text-light" id="title">
+    Events
+  </div>
+  <!--END Title-->
+  <div class="bg-white">
+    <!--Culture Activities-->
+    <div id="culture" class="container-fluid cardshadow">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 my-5">
+          <div class="text-center">
+            <img src="../../images/cultures.jpg" width="90%" height:"auto" alt="backgroundImage">
           </div>
-          <!--END Culture Activities-->
-
-          <!--Exhibition-->
-          <div id="exhibition" class="container-fluid cardshadow">
-            <div class="row">
-              <div class="col-md-6 col-sm-12 my-5">
-                <div class="text-center">
-                  <img src="../../images/cultures.jpg" width="70%" height:"auto" alt="backgroundImage">
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12 my-5">
-                <h2>
-                  <span class="intro">Exhibitions</span>
-                </h2>
-                <p class="font">Libraries are well-placed to increase participation
-                  in cultural activities because of their use by all
-                  social groups and their role as inclusive cultural hubs
-                  within communities. Libraries also point people to
-                  wider cultural activities, objects, knowledge and sites,
-                  and encourage individuals to explore different cultural experiences
-                  and to create things themselves.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--END Exhibition-->
-
-          <!--Publications-->
-          <div class="position-sticky container-fluid" style="background-color:#FFDB58">
-            <div class="text-center" id="title2">
-              <h1>Publications</h1>
-            </div>
-            <div class="row">
-              <div class="col-lg-3 col-sm-6 col-xs-12">
-                <div class="text-center">
-                  <div class="publications">
-                    <img src="../../images/customer.jpg" alt="annualreport" style="width:100%">
-                    <h3>Annual Report</h3>
-                      <p>Read about our performance as well as achievements and
-                        find out about the Library’s programmes,
-                        projects and activities in our annual reports.
-                      </p>
-                    <p><button>Read More</button></p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-sm-6 col-xs-12">
-                <div class="text-center">
-                  <div class="publications">
-                    <img src="../../images/customer.jpg" alt="bulletin" style="width:100%">
-                    <h3>Bulletin</h3>
-                    <p>An archive of bulletins and newsletters to keep Library users
-                      up to date with current opening hours, services and events.
-                    </p>
-                    <p><button>Read More</button></p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-sm-6 col-xs-12">
-                <div class="text-center">
-                  <div class="publications">
-                    <img src="../../images/customer.jpg" alt="handbook" style="width:100%">
-                    <h3>Handbook</h3>
-                    <p>The handbook is an indispensable all-in-one resource for
-                      everything related to the Library’s collections, services, and facilities.
-                    </p>
-                    <p><button>Read More</button></p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-sm-6 col-xs-12">
-                <div class="text-center">
-                  <div class="publications">
-                    <img src="../../images/customer.jpg" alt="brochure" style="width:100%">
-                    <h3>Library Brochure</h3>
-                    <p>The most current Library Brochure
-                      provides you with the latest information on library services and facilities.
-                    </p>
-                    <p><button>Read More</button></p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <!--END Publications-->
         </div>
-        <!--Footer-->
-        <footer class="position-relative text-light pt-5 pb-1">
-          <div class="footer-container text-center">
-              <div class="row">
-                  <div class="col-lg-3 col-sm-6 col-xs-12">
-                      <img src="../../images/logo.png" alt="logo" width="170px" height="auto">
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-xs-12">
-                      <h3 class="mb-2">About Us</h3>
-                      <p>
-                        The Malaysian Public Library, Research and Development Centre (formerly known as the Malayan
-                        Public Library Association) was formed in 1955. Since then, this historical library has made
-                        immense contributions to the mental and intellectual development of Malaysians, both in the
-                        urban and non-urban areas. It has had a chequered history of providing reading materials and
-                        information services for the upliftment of the young and old through times of trouble and social instability.
-                      </p>
-                      <a href="aboutus-en.html">Learn More >></a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-xs-12">
-                      <h3 class="mb-2">Contact Us</h3>
-                      <p>
-                          2nd floor, Wisma HELP, Jalan Dungun
-                          50490 Kuala Lumpur, Malaysia
-                          Tel: 603-2711 2000
-                          Email: <a href="mailto:mplrdc@help.edu.my">mplrdc@help.edu.my</a>
+        <div class="col-md-6 col-sm-12 my-5">
+          <h2>
+            <span class="intro">Culture activities</span>
+          </h2>
+          <p class="font">Libraries are well-placed to increase participation
+            in cultural activities because of their use by all
+            social groups and their role as inclusive cultural hubs
+            within communities. Libraries also point people to
+            wider cultural activities, objects, knowledge and sites,
+            and encourage individuals to explore different cultural experiences
+            and to create things themselves.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--END Culture Activities-->
 
-                      </p>
-                      <p>Can't find us? Try using <a href="https://www.google.com.my/maps/place/Wisma+HELP/@3.1527778,101.6630891,
+    <!--Exhibition-->
+    <div id="exhibition" class="container-fluid cardshadow">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 my-5">
+          <div class="text-center">
+            <img src="../../images/cultures.jpg" width="70%" height:"auto" alt="backgroundImage">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 my-5">
+          <h2>
+            <span class="intro">Exhibitions</span>
+          </h2>
+          <p class="font">Libraries are well-placed to increase participation
+            in cultural activities because of their use by all
+            social groups and their role as inclusive cultural hubs
+            within communities. Libraries also point people to
+            wider cultural activities, objects, knowledge and sites,
+            and encourage individuals to explore different cultural experiences
+            and to create things themselves.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--END Exhibition-->
+
+    <!--Publications-->
+    <div class="position-sticky container-fluid" style="background-color:#FFDB58">
+      <div class="text-center" id="title2">
+        <h1>Publications</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="text-center">
+            <div class="publications">
+              <img src="../../images/customer.jpg" alt="annualreport" style="width:100%">
+              <h3>Annual Report</h3>
+              <p>Read about our performance as well as achievements and
+                find out about the Library’s programmes,
+                projects and activities in our annual reports.
+              </p>
+              <p><button>Read More</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="text-center">
+            <div class="publications">
+              <img src="../../images/customer.jpg" alt="bulletin" style="width:100%">
+              <h3>Bulletin</h3>
+              <p>An archive of bulletins and newsletters to keep Library users
+                up to date with current opening hours, services and events.
+              </p>
+              <p><button>Read More</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="text-center">
+            <div class="publications">
+              <img src="../../images/customer.jpg" alt="handbook" style="width:100%">
+              <h3>Handbook</h3>
+              <p>The handbook is an indispensable all-in-one resource for
+                everything related to the Library’s collections, services, and facilities.
+              </p>
+              <p><button>Read More</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="text-center">
+            <div class="publications">
+              <img src="../../images/customer.jpg" alt="brochure" style="width:100%">
+              <h3>Library Brochure</h3>
+              <p>The most current Library Brochure
+                provides you with the latest information on library services and facilities.
+              </p>
+              <p><button>Read More</button></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--END Publications-->
+  </div>
+  <!--Footer-->
+  <footer class="position-relative text-light pt-5 pb-1">
+    <div class="footer-container text-center">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <img src="../../images/logo.png" alt="logo" width="170px" height="auto">
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <h3 class="mb-2">About Us</h3>
+          <p>
+            The Malaysian Public Library, Research and Development Centre (formerly known as the Malayan
+            Public Library Association) was formed in 1955. Since then, this historical library has made
+            immense contributions to the mental and intellectual development of Malaysians, both in the
+            urban and non-urban areas. It has had a chequered history of providing reading materials and
+            information services for the upliftment of the young and old through times of trouble and social
+            instability.
+          </p>
+          <a href="aboutus-en.html">Learn More >></a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <h3 class="mb-2">Contact Us</h3>
+          <p>
+            2nd floor, Wisma HELP, Jalan Dungun
+            50490 Kuala Lumpur, Malaysia
+            Tel: 603-2711 2000
+            Email: <a href="mailto:mplrdc@help.edu.my">mplrdc@help.edu.my</a>
+
+          </p>
+          <p>Can't find us? Try using <a
+              href="https://www.google.com.my/maps/place/Wisma+HELP/@3.1527778,101.6630891,
                           17z/data=!3m1!4b1!4m5!3m4!1s0x31cc4854c163ba69:0x1eb08ed1feb2398d!8m2!3d3.1527778!4d101.6652778">Google Maps</a></p>
 
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-xs-12">
-                      <h3 class="mb-2">Navigation</h3>
-                      <div class="col-12"><a href="opac-en.html">OPAC</a></div>
-                      <div class="col-12"><a href="research-en.html">Research</a></div>
-                      <div class="col-12"><a href="events-en.html">Events</a></div>
-                      <div class="col-12"><a href="resources-en.html">Resources</a></div>
-                      <div class="col-12"><a href="membership-en.html">Membership</a></div>
-                      <div class="col-12"><a href="contactus-en.html">Contact Us</a></div>
-                      <div class="col-12"><a href="careers-en.html">Career</a></div>
-                      <div class="col-12"><a href="sponsorship-en.html">Sponsorship</a></div>
-                  </div>
-              </div>
-              <hr class="border-light"></hr>
-              <p><a class="text-light" href="#">Privacy Policy</a> | &#169; 2020 Malaysian Public Library, Research and Develop Center | <a class="text-light" href="#">Sitemap</a></p>
-          </div>
-        </footer>
-        <!--END Footer-->
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <h3 class="mb-2">Navigation</h3>
+          <div class="col-12"><a href="opac-en.html">OPAC</a></div>
+          <div class="col-12"><a href="research-en.html">Research</a></div>
+          <div class="col-12"><a href="events-en.html">Events</a></div>
+          <div class="col-12"><a href="resources-en.html">Resources</a></div>
+          <div class="col-12"><a href="membership-en.html">Membership</a></div>
+          <div class="col-12"><a href="contactus-en.html">Contact Us</a></div>
+          <div class="col-12"><a href="careers-en.html">Career</a></div>
+          <div class="col-12"><a href="sponsorship-en.html">Sponsorship</a></div>
+        </div>
+      </div>
+      <hr class="border-light">
+      </hr>
+      <p><a class="text-light" href="#">Privacy Policy</a> | &#169; 2020 Malaysian Public Library, Research and Develop
+        Center | <a class="text-light" href="#">Sitemap</a></p>
+    </div>
+  </footer>
+  <!--END Footer-->
 
-    <script src="../../js/script.js"></script>
-    </body>
+  <script src="../../js/script.js"></script>
+</body>
+
 </html>
