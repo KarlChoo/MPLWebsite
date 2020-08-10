@@ -263,40 +263,111 @@ nav.navbar{
     margin: 0 auto;
     background-color: black;
     position: relative;
-    border: 1px solid white
+    opacity: 0.75;
+    transition: opacity .6s ease-in-out;
+}
+
+.resource-card:hover{
+    opacity: 1.0;
 }
 
 .resource-card a{
     position: absolute;
-    top: 35%;
+    top: 0;
     bottom: 0;      
     left: 0;
     right: 0;
     z-index: 20;
     
-
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
+    vertical-align: middle;
+    padding-top: 35%;
 }
 
 .resource-card a:hover{
     text-decoration: none;
 }
 
+/** Card 1 **/
 #online-database{
     background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(251,105,105,1) 69%);
-    opacity: 0.8;
-    transition: opacity .8s ease-in-out;
 }
 
 #online-database a, #online-database a:hover{
     color: black;
 }
 
-#online-database:hover{
-    opacity: 1.0;
+/** Card 2 **/
+#online-journal{
+    background: rgb(0,10,255);
+    background: linear-gradient(180deg, rgba(0,10,255,1) 0%, rgba(105,111,251,1) 69%);
 }
+
+#online-journal a, #online-journal a:hover{
+    color: black;
+}
+
+/** Card 3 **/
+#open-access{
+    background: rgb(255,144,0);
+    background: linear-gradient(180deg, rgba(255,144,0,1) 0%, rgba(255,179,86,1) 69%);
+}
+
+#open-access a, #open-access a:hover{
+    color: black;
+}
+
+/** Card 4 **/
+#ebooks{
+    background: rgb(8,154,57);
+    background: linear-gradient(180deg, rgba(8,154,57,1) 0%, rgba(34,247,105,1) 69%);
+}
+
+#ebooks a, #ebooks a:hover{
+    color: black;
+}
+
+/** Card 5 **/
+#multimedia{
+    background: rgb(135,51,2);
+    background: linear-gradient(180deg, rgba(135,51,2,1) 0%, rgba(162,115,4,1) 69%);
+}
+
+#multimedia a, #multimedia a:hover{
+    color: white;
+}
+
+
+/** Card 6 **/
+#old-newspaper{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(2,3,0,0.8270658605238971) 69%);
+}
+
+#old-newspaper a, #old-newspaper a:hover{
+    color: white;
+}
+
+.resource-divider{
+    border-width: 2px;
+}
+
+.resource-initial{
+    font-size: 5em;
+    padding: 0;
+}
+
+.resource-list a{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.resource-list a:hover{
+    text-decoration: rgb(77, 181, 216);
+}
+
 /***
 *
 *
